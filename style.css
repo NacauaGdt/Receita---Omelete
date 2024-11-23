@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+*{
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  border: 0;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150vh;
+  background-color: #f3e6d8;
+  font-family: 'Young Serif', sans-serif;
+  font-size: 16px;
+}
+
+.card{
+  background-color: #ffffff;
+  border-radius: 25px;
+  width: 740px;
+  justify-content: center;
+  margin-top: 350px;
+}
+
+.image{
+  padding: 40px 40px 50px 40px;
+}
+
+.image img{
+  height: 300px;
+  width: 660px;
+  border-radius: 10px;
+}
+
+.comida{
+  margin-top:-20px;
+  margin-left: 40px;
+  margin-right: 70px;
+  margin-bottom: 50px;
+}
+
+.preparacao{
+  background-color: #fff5fa;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  border-radius: 5px;
+  padding: 30px 0 20px 0;
+}
+
+.tempo{
+  margin-left: 30px;
+  margin-bottom: 15px;
+  color: hsl(332, 51%, 32%);
+  font-weight: 550;
+}
+
+.bolinha li{
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.ingredientes li{
+  padding: 0 0 7px 0;
+}
+
+.produto{
+  margin-left: 40px;
+  margin-bottom: 18px;
+}
+
+.produtos{
+  margin-left: 60px;
+  margin-bottom: 70px;
+}
+
+.fazer li{
+  margin-left: 20px;
+  padding: 0 0 7px 0;
+}
+
+.instrucoes{
+  margin-left: 40px;
+  margin-bottom: 50px;
+  margin-right: 40px;
+}
+
+.instrucao{
+  margin-bottom: 18px;
+}
+
+.nutricao{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+}
+
+.nutrientes{
+  padding: 0 0 20px 0;
+  margin-left: 30px;
+}
+
+.nutri{
+  margin-bottom: 20px;
+}
+
+.subnutri{
+  margin-bottom: 15px;
+}
+
+.seila1{
+  margin-left: 220px;
+}
+
+.seila2{
+  margin-left: 236px;
+}
+
+.seila3{
+  margin-left: 225px;
+}
+
+.seila4{
+  margin-left: 250px;
+}
+
+.titulo-omelete{
+  font-family: 'Outfit',sans-serif;
+  font-weight: 600;
+  font-size: 40px;
+  color: #302d2c;
+  margin-bottom: 20px;
+}
+
+p{
+  font-family: 'Outifit', sans-serif;
+  font-size: 14px;
+  color: hsl(30, 10%, 34%);
+}
+
+.produto{
+  color: hsl(14, 45%, 36%);
+}
+
+.nutri{
+  color: hsl(14, 45%, 36%);
+}
+
+.instrucao{
+  color: hsl(14, 45%, 36%);
+}
+
+.instrucoes li{
+  color: hsl(30, 10%, 34%);
+}
+
+.instrucoes span{
+  color: #170d0dfe;
+  font-weight: 550;
+}
+
+.ingredientes li{
+  color: hsl(30, 10%, 34%);
+}
+
+.preparacao li{
+  color: hsl(30, 10%, 34%);
+}
+
+.preparacao span{
+  color: #170d0dfe;
+  font-weight: 400;
+}
+
+.preparacao li::marker {
+  color: hsl(332, 51%, 32%);
+}
+
+.ingredientes li::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+.instrucoes li::marker{
+  color: hsl(14, 45%, 36%);
+}
+
+.nutricao span{
+  color: hsl(14, 45%, 36%);
+  font-weight: 700;
+}
+
+.nutrientes:not(:last-child){
+  border-bottom: 1.5px solid;
+  margin-top: 15px;
+  border-color: hsl(0, 0%, 70%);
+}
+
+
+
+ 
